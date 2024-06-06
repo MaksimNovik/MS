@@ -25,6 +25,7 @@ public abstract class BaseIntegrationTest {
     @Autowired
     protected MockMvc mvc;
 
+
     protected MockHttpServletRequestBuilder requestToJson(MockHttpServletRequestBuilder requestBuilder) {
         return requestBuilder
                 .contentType(APPLICATION_JSON);
